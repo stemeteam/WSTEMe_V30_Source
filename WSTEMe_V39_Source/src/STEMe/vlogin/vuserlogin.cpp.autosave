@@ -1,0 +1,100 @@
+#include "vuserlogin.h"
+#include <QSettings>
+
+VUserLogin::VUserLogin(QObject *parent) : QObject(parent)
+{
+
+}
+
+QList<QString> VUserLogin::AllAccount()
+{
+    QList<QString> list;
+    settingLoad();
+    foreach(UserLoginSetting user,m_userTable){
+        list.append(user.account);
+    }
+    return list;
+}
+
+VUserLogin *VUserLogin::User(QString Account)
+{
+    
+}
+
+bool VUserLogin::insertUser(QString newAccount, QString newPassword, VUserLogin::UserType type,QList<QString> listDev)
+{
+    if(!checkUser(newAccount)){
+        UserLoginSetting _userLogin;
+        _userLogin.account = newAccount;
+        _userLogin.password = newPassword;
+        _userLogin.usertype = type;
+        _userLogin.listDevices = listDev;
+        m_userTable.append(_userLogin);
+        settingSave();
+        return true;
+    }
+    return false;
+}
+
+bool VUserLogin::checkUser(QString account)
+{
+    settingLoad();
+    foreach(UserLoginSetting user,m_userTable){
+        if(user.account.compare(account,Qt::CaseInsensitive)==0){
+            m_userLoginSetting = user;
+            return true;
+        }
+    }
+    return false;
+}
+
+void VUserLogin::settingSave()
+{
+
+    if(m_userTable.count()>0){
+        QSettings settings("ELEVOI","VDAT");
+        settings.beginWriteArray("VUserLoggin");
+        settings.remove("");
+        for (int i = 0; i < m_userTable.count(); ++i) {
+            settings.setArrayIndex(i);
+            settings.setValue("account", m_userTable.at(i).account);
+            settings.setValue("password", m_userTable.at(i).password);
+            switch(m_userTable.at(i).usertype){
+            case UserType::root:settings.setValue("usertype",0);
+                break;
+            case UserType::teacher:settings.setValue("usertype",1);
+                break;
+            case UserType::student:settings.setValue("usertype",2);
+                break;
+            }
+            settings.setValue("listDevices",QVariant(m_userTable.at(i).listDevices));
+        }
+        settings.endArray();
+    }
+
+}
+
+void VUserLogin::settingLoad()
+{
+     QSettings settings("ELEVOI","VDAT");
+     int size = settings.beginReadArray("VUserLoggin");
+     if(size<1)return;
+     m_userTable.clear();
+     for (int i = 0; i < size; ++i) {
+         settings.setArrayIndex(i);
+         this->m_userLoginSetting.account = settings.value("account","euwdjfisjf329428282428jejfsjj").toString();
+         this->m_userLoginSetting.password = settings.value("password","jdsajfwjfwjfoj273482342").toString();
+         switch(settings.value("usertype","root").toInt()){
+         case 0:this->m_userLoginSetting.usertype = UserType::root;
+             break;
+         case 1:this->m_userLoginSetting.usertype = UserType::teacher;
+             break;
+         case 2:this->m_userLoginSetting.usertype = UserType::student;
+             break;
+         }
+        this->m_userLoginSetting.listDevices = settings.value("listDevices","jdsajfwjfwjfoj273482342").toStringList();
+
+         m_userTable.append(m_userLoginSetting);
+     }
+     settings.endArray();
+}
