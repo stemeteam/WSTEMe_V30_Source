@@ -1,0 +1,252 @@
+{
+    "000200000001": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Sử dụng cho tài khoản Root (Quản lý)\nCác cài đặt và cấu hình cho phần mềm, phần cứng quan trọng.",
+        "iconPath": ":/image/UserAccounts.jpg",
+        "nameDevice": "Tài khoản người dùng",
+        "objectName": "vdevice000200000001",
+        "serialNumberDevice": "000200000001",
+        "typeDevice": "Root"
+    },
+    "000300000002": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Sử dụng cho tài khoản Root (Quản lý)\nCác cài đặt và cấu hình cho phần mềm, phần cứng quan trọng.",
+        "iconPath": ":/image/Setup_icon_2.jpg",
+        "nameDevice": "Cài đặt chung",
+        "objectName": "vdevice000300000002",
+        "serialNumberDevice": "000300000002",
+        "typeDevice": "Root"
+    },
+    "010100000101": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tATH0101\nDải đo:\t\t-50 ~ 200*C\nĐộ phân dải:\t0.01 *C\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/Temperature_icon.jpg",
+        "nameDevice": "Cảm biến nhiệt độ",
+        "objectName": "vdevice010100000101",
+        "serialNumberDevice": "010100000101",
+        "typeDevice": "Sensor"
+    },
+    "010200000102": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "- Model:\t\tATH0102\n- Độ ẩm:\n      Dải đo: \t\t0 ~ 100 %RH\n      Độ phân dải: \t0.1 %RH\n- Nhiệt độ:\n      Dải đo: \t\t-40 ~ 125 *C\n      Độ phân dải: \t0.1 *C\n- Giao tiếp: \t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/TempHumi_icon_1.jpg",
+        "nameDevice": "Cảm biến độ ẩm",
+        "objectName": "vdevice010200000102",
+        "serialNumberDevice": "010200000102",
+        "typeDevice": "Sensor"
+    },
+    "010300000103": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tWHL0103\nGiải đo:\t\t5000g\nĐộ phân dải:\t1g\nGiao tiếp:\t\tRS485,RS232\nNhà sản xuất:\twww.vee.com.vn",
+        "iconPath": ":/image/WHL0103_Icon.jpg",
+        "nameDevice": "Cảm biến trọng lượng",
+        "objectName": "vdevice010300000103",
+        "serialNumberDevice": "010300000103",
+        "typeDevice": "Sensor"
+    },
+    "010400000104": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tPRS0104\nDải đo:\t\t0 ~ 250 kPa\nĐộ phân dải:\t0.1 hPa\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/PSR0104_Icon.jpg",
+        "nameDevice": "Đo áp suất",
+        "objectName": "vdevice010400000104",
+        "serialNumberDevice": "010400000104",
+        "typeDevice": "Sensor"
+    },
+    "010500000105": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tSOU0105\nDải đo:\t\t20 ~ 100 dB\nĐộ phân dải:\t0.1 dB\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/SOU0105_Icon.jpg",
+        "nameDevice": "Cảm biến âm thanh",
+        "objectName": "vdevice010500000105",
+        "serialNumberDevice": "010500000105",
+        "typeDevice": "Sensor"
+    },
+    "010600000106": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tPHS0106\nDải đo:\t\t0 ~ 14 pH\nĐộ phân dải:\t0.01 pH\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/PHS0106_Icon.jpg",
+        "nameDevice": "Cảm biến độ pH",
+        "objectName": "vdevice010600000106",
+        "serialNumberDevice": "010600000106",
+        "typeDevice": "Sensor"
+    },
+    "010700000107": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tOSW0107\nDải đo:\t\t0~20mg/l\nĐộ phân dải:\t0.01mg/l\nGiao tiếp:\tRS485 (Modbus RTU)\nSản xuất:\twww.vee.com.vn",
+        "iconPath": ":/image/OSW0107_Icon.jpg",
+        "nameDevice": "Cảm biến DO",
+        "objectName": "vdevice010700000107",
+        "serialNumberDevice": "010700000107",
+        "typeDevice": "Sensor"
+    },
+    "010800000108": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "- Kiểu (model): \tOSA0108\n- Dải đo:\t\t0 ~ 30%Vol\n- Độ phân dải: \t0.01%Vol\n- Giao tiếp:\t\tRS485 (Modbus RTU)\n",
+        "iconPath": ":/image/OxygenSensorIcon_White.jpg",
+        "nameDevice": "Cảm biến nồng độ Oxy",
+        "objectName": "vdevice010800000108",
+        "serialNumberDevice": "010800000108",
+        "typeDevice": "Sensor"
+    },
+    "010900000109": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tSAS0109\nDải đo:\t\t0 ~ 50 ppt\nĐộ phân dải:\t0.01 ppt\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/SAS0109_Icon.jpg",
+        "nameDevice": "Cảm biến độ mặn",
+        "objectName": "vdevice010900000109",
+        "serialNumberDevice": "010900000109",
+        "typeDevice": "Sensor"
+    },
+    "011001102206": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tCOA0110\nDải đo:\t\t0 `~ 50000 ppm\nĐộ phân dải:\t1 ppm\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/COA0110_Icon.jpg",
+        "nameDevice": "Cảm biến CO2",
+        "objectName": "vdevice011001102206",
+        "serialNumberDevice": "011001102206",
+        "typeDevice": "Sensor"
+    },
+    "011100000336": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tATH0111\nDải đo:\t\t0 ~ 1000 *C\nĐộ phân dải:\t0.1 *C\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/ATH0111_Icon.jpg",
+        "nameDevice": "Cảm biến nhiệt độ K",
+        "objectName": "vdevice011100000336",
+        "serialNumberDevice": "011100000336",
+        "typeDevice": "Sensor"
+    },
+    "011200000124": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tALS0112\nDải đo:\t\t0 ~ 65000 lx\nĐộ phân dải:\t1 lx\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/ALS0112_Icon.jpg",
+        "nameDevice": "Đo ánh sáng",
+        "objectName": "vdevice011200000124",
+        "serialNumberDevice": "011200000124",
+        "typeDevice": "Sensor"
+    },
+    "011300000012": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tMOV0113\nDải đo:\t\t0.15 ~ 1.6 m\nĐộ phân dải:\t0.05 m\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/MOVE0113_Icon.jpg",
+        "nameDevice": "Cảm biến chuyển động",
+        "objectName": "vdevice011300000012",
+        "serialNumberDevice": "011300000012",
+        "typeDevice": "Sensor"
+    },
+    "011400000192": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tMAG0114\nDải đo:\t\t0 ~ 8.4 mT\nĐộ phân dải:\t0,03 mT\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/MAG0114_Icon.jpg",
+        "nameDevice": "Cảm biến từ trường",
+        "objectName": "vdevice011400000192",
+        "serialNumberDevice": "011400000192",
+        "typeDevice": "Sensor"
+    },
+    "011500000085": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tCON0115\nDải đo:\t\t0 ~ 20000 uS/cm\nĐộ phân dải:\t400 uS/cm\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/CON0115_Icon.jpg",
+        "nameDevice": "Cảm biến độ dẫn điện",
+        "objectName": "vdevice011500000085",
+        "serialNumberDevice": "011500000085",
+        "typeDevice": "Sensor"
+    },
+    "011600000104": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tPTS0116\nDải đo:\t\t300 ~ 1100 hPa\nĐộ phân dải:\t1 hPa\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/PTS0116_Icon.jpg",
+        "nameDevice": "Đo Áp suất không khí",
+        "objectName": "vdevice011600000104",
+        "serialNumberDevice": "011600000104",
+        "typeDevice": "Sensor"
+    },
+    "012000000130": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "",
+        "iconPath": ":/image/HRS0120_Icon.jpg",
+        "nameDevice": "Cảm biến nhịp tim",
+        "objectName": "vdevice012000000130",
+        "serialNumberDevice": "012000000130",
+        "typeDevice": "Sensor"
+    },
+    "012100000121": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tDIS0121\nDải đo:\t\t0 ~ 1.6 m\nĐộ phân dải:\t0.001 m\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/DIS0121_Icon.png",
+        "nameDevice": "Cảm biến khoảng cách",
+        "objectName": "vdevice012100000121",
+        "serialNumberDevice": "012100000121",
+        "typeDevice": "Sensor"
+    },
+    "015000000150": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tVOL0150\nDải đo:\t\t±6 (V)\nĐộ phân dải:\t0.001 (V)\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/VOL0150_icon.jpg",
+        "nameDevice": "Vôn kế",
+        "objectName": "vdevice015000000150",
+        "serialNumberDevice": "015000000150",
+        "typeDevice": "Sensor"
+    },
+    "015100000151": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tCUR0151\nDải đo:\t\t ±3 (A)\nĐộ phân dải:\t0.001 (A)\nGiao tiếp:\t\tRS485 (Modbus RTU)",
+        "iconPath": ":/image/CUR0151_Icon.jpg",
+        "nameDevice": "Ampe kế",
+        "objectName": "vdevice015100000151",
+        "serialNumberDevice": "015100000151",
+        "typeDevice": "Sensor"
+    },
+    "110100000070": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "Model:\t\tMFS1101\nDải đo:\t\t± 50N\nĐộ phân dải:\t0.001N\nGiao tiếp:\t\tRS485\nSản xuất:\twww.vee.com.vn\n",
+        "iconPath": ":/image/MFS1101_Icon.jpg",
+        "nameDevice": "Mô đun Đo Lực",
+        "objectName": "vdevice110100000070",
+        "serialNumberDevice": "110100000070",
+        "typeDevice": "Module"
+    },
+    "110200000070": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "",
+        "iconPath": ":/image/MFS1102.jpg",
+        "nameDevice": "Giao động lò xo",
+        "objectName": "vdevice110200000070",
+        "serialNumberDevice": "110200000070",
+        "typeDevice": "Module"
+    },
+    "110300000090": {
+        "dateCreated": "",
+        "dateModified": "",
+        "description": "",
+        "iconPath": ":/image/MFS0103_icon.jpg",
+        "nameDevice": "BTB đo KTS tích hợp",
+        "objectName": "vdevice110300000090",
+        "serialNumberDevice": "110300000090",
+        "typeDevice": "Module"
+    }
+}
